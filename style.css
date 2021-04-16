@@ -1,0 +1,103 @@
+.earthday{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    border: darkblue;
+    border-radius: 50px;
+}
+
+.earthday h1{
+    color: lightblue;
+    font-size: xx-large;
+}
+
+.earthday p{
+    color: lightcyan;
+    font-size:xx-large;
+}
+
+.earthday img{
+    position: relative;
+}
+
+.earthday p{
+    position: absolute;
+    top: 65%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.earthday:hover p{
+    opacity: 1;
+}
+
+.earthday:hover img{
+    opacity: 0.33;
+}
+
+
+
+.earth{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 143, 143);
+    border-radius: 50px;
+    border-color: rgb(253, 38, 0);
+}
+
+.earth p{
+    font-size: xx-large;
+}
+
+
+
+.science{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightskyblue;
+    border-radius: 50px;
+}
+
+.science p{
+    font-size: xx-large;
+}
+
+
+
+.people{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    border-radius: 50px;
+}
+
+.people p{
+    font-size: xx-large;
+}
+
+
+
+.and{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgreen;
+    border-radius: 50px;
+}
+
+.and p{
+    font-size: xx-large;
+}
+
+
+
+.plastic{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightpink;
+    border-radius: 50px;
+}
+
+.plastic p{
+    font-size: xx-large;
+}
